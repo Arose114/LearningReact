@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.myinput{
+  background-color: yellow;
+  border: 5px solid red;
+}
+.myinput:hover{
+  background-color: aqua;
+}
