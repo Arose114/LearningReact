@@ -2,11 +2,18 @@ import React from "react";
 
 function ContactCard(props) {
   return (
-    <div>
-      <img src={props.imgurl}></img>
-      <p>Name: {props.name}</p>
-      <p>Phone: {props.phone}</p>
-      <p>Gender: {props.gender}</p>
+    <div className="contacts">
+      <img
+        src={props.imgurl}
+        alt="..."
+        width="140"
+        height="115"
+        className="items"
+      ></img>
+      <p className="items">Name: {props.name}</p>
+      <p className="items">Phone: {props.phone}</p>
+      <p className="items">Gender: {props.gender}</p>
+      <hr />
     </div>
   );
 }

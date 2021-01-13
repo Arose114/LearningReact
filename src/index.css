@@ -1,1 +1,23 @@
-
+.contact {
+  margin: auto;
+  background-color: whitesmoke;
+  width: 600px;
+  justify-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.contacts {
+  margin: auto;
+  width: 400px;
+  background-color: blueviolet;
+  border-radius: 5%;
+}
+.items {
+  color: aliceblue;
+}
+.info {
+  text-align: center;
+  font-size: 30px;
+  font-feature-settings: "salt";
+  color: white;
+  text-shadow: 10px 5px 5px gray;
+}
